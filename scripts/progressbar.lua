@@ -275,7 +275,7 @@ the binding `f cycle pause; script-binding progressbar/toggle-inactive-bar`, it
 is possible to have the bar be persistently present only in windowed or
 fullscreen contexts, depending on the default setting.
 ]]
-settings['bar-height-inactive'] = 2
+settings['bar-height-inactive'] = 1.5
 helpText['bar-height-inactive'] = [[Sets the height of the bar display when the mouse is not in the active zone and
 there is no request-display active. A value of 0 or less will cause bar-hide-
 inactive to be set to true and the bar height to be set to 1. This should result
@@ -306,7 +306,7 @@ tallest of the cache or progress bars. Useful for improving contrast but can
 make the bar take up more screen space. Has no effect if the cache bar height is
 less than the bar height.
 ]]
-settings['bar-cache-position'] = 'overlay'
+settings['bar-cache-position'] = 'underlay'
 helpText['bar-cache-position'] = [[Placement of the cache bar. Valid values are 'overlay' and 'underlay'.
 
 'overlay' causes the cache bar to be drawn on top of the foreground layer of the
